@@ -1,0 +1,10 @@
+.breadcrumbs {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: lightgreen;
+}
+
+.breadcrumbs li {
+    display: inline;
+    font-size: 75%;
+}
