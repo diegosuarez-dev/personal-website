@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.mainMenu {
+    display: grid;
+    grid-template-rows: auto auto auto auto;    
+    background: darkgreen;
+}
+
+@media (min-width: 576px) {
+    .mainMenu {
+        grid-template-columns: auto auto auto auto 1fr;
+    }
+}
+
+.mainMenu > a {
+    color: white;
+    padding: 1vw 1.5vw;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mainMenu > a:hover {
+    color: black;
+    background-color: lightgreen;
+}
+
+.breadcrumbs {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    color: darkgreen;
+    background-color: lightgreen;
+    list-style: none;
+    margin-top: 0;
+    font-size: 0.7em;
+}
+
+.breadcrumbs > li {
+    padding-right: 1em;
+}
+
+.breadcrumbs li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+.breadcrumbs > li > a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, auto) 1fr;
+    background: lightgreen;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer > p {
+    grid-column: 2/3;
+    text-align: right;
+}
+
+.enlacesRedes > a {
+    grid-column: 3/4;
+    margin-left: 1vw;
+}
