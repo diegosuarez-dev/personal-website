@@ -35,14 +35,64 @@
             </ol>
         </nav>
     </header>
-
+    <main>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <h4>¿Tienes alguna pregunta?</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="inputName">Nombre</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Ej. Diego Suárez">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Describe tu consulta</label>
+                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                        </div>
+                        <label for="Radios1">Tipo de consulta</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Radios" id="Radios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="Radios1">
+                                Oferta de trabajo / colaboración
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Radios" id="Radios2"
+                                value="option2">
+                            <label class="form-check-label" for="Radios2">
+                                Problema en la web
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Radios" id="Radios3"
+                                value="option3">
+                            <label class="form-check-label" for="Radios3">
+                                Otra consulta
+                            </label>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-outline-success">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer>
         <nav class="navbar fixed-bottom navbar-light" style="background-color: lightgreen;">
             <span class="navbar-text">Encuéntrame también en:</span>
             <a href="https://github.com/diegosuarez-dev" class="navbar-brand"><img src="img/github.png"
-                alt="Logo Github"></a>
+                    alt="Logo Github"></a>
             <a href="https://www.linkedin.com/in/diegosuarezleon/" class="navbar-brand"><img src="img/linkedin.png"
-                alt="Logo Linkedin"></a>      
+                    alt="Logo Linkedin"></a>
         </nav>
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

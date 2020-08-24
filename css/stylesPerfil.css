@@ -134,6 +134,11 @@ span {
     font-weight: bolder;
 }
 
+h3, p {
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr repeat(2, auto) 1fr;
