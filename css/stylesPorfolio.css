@@ -87,14 +87,14 @@ video {
 
 @media (min-width: 576px) {
     video {
-        width: 50%;
+        width: 35%;
     }
 }
 
 #art1, #art2 {
     display: grid;
     padding: 0.5em;
-    grid-template-rows: 0.05fr 1fr;
+    grid-template-rows: 0.10fr 1fr;
     row-gap: 1em;
 }
 
