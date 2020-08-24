@@ -1,0 +1,15 @@
+a.nav-link, .breadcrumb-item > a {
+    color: white;
+}
+
+ol.breadcrumb {
+    background-color: lightgreen;
+}
+
+footer > .navbar {
+    justify-content: center;
+}
+
+.navbar-text {
+    padding-right: 1em;
+}
