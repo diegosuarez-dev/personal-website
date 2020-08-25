@@ -12,7 +12,7 @@ h3 {
     color: darkgreen;
 }
 
-header {
+body > header {
     position: sticky;
     top: 0;
     overflow: hidden;
